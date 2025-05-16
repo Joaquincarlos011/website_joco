@@ -227,14 +227,15 @@ footer {
 
   <header>Welcome to My Blog</header>
 
-  <nav>
-    <a href="javascript:void(0);" onclick="showSection('home')">Home</a>
-    <a href="javascript:void(0);" onclick="showSection('about')">About</a>
-    <a href="javascript:void(0);" onclick="showSection('blog')">Blog</a>
-    <a href="javascript:void(0);" onclick="showSection('dashboard')">Dashboard</a>
-    <a href="javascript:void(0);" onclick="showSection('contact')">Contact</a>
-    <a href="javascript:void(0);" onclick="showSection('gallery')">Gallery</a>
-  </nav>
+ <nav>
+  <a href="javascript:void(0);" onclick="showSection('home')">Home</a>
+  <a href="javascript:void(0);" onclick="showSection('dashboard')">Dashboard</a>
+  <a href="javascript:void(0);" onclick="showSection('about')">About</a>
+  <a href="javascript:void(0);" onclick="showSection('gallery')">Gallery</a>
+  <a href="javascript:void(0);" onclick="showSection('myspace')">My Space Personal Menu</a>
+  <a href="javascript:void(0);" onclick="showSection('contact')">Contact</a>
+</nav>
+
 
   <main>
 
@@ -274,6 +275,7 @@ footer {
 </section>
 
 ```
+
 <section id="blog" class="pastel-box">
   <h2>Blog</h2>
   <p>Explore the latest blog posts on technology, gaming, AI, coding, and design.</p>
@@ -319,7 +321,6 @@ footer {
   </div>
 </section>
 
-
 <section id="gallery" class="pastel-box" style="padding: 20px;">
   <h2 style="text-align: center; font-size: 28px; color: black; margin-bottom: 20px;">
     4x4 Gallery – 4 Photos & 4 YouTube Videos
@@ -331,8 +332,8 @@ footer {
     <img src="image3.jpg" alt="Photo 3" style="width: 100%; border-radius: 10px;">
     <img src="image4.jpg" alt="Photo 4" style="width: 100%; border-radius: 10px;">
 
-
 <!-- YouTube Videos -->
+
 <div style="position: relative; width: 100%; padding-top: 56.25%; border-radius: 10px; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/9kpuOoIh3wU" frameborder="0" allowfullscreen
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
@@ -350,7 +351,20 @@ footer {
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
-
+  </div>
+</section>
+ <section id="myspace" class="pastel-box">
+  <h2 style="text-align: center; font-size: 28px; color: teal;">My Space Personal Menu</h2>
+  <p style="text-align: center; font-size: 18px;">
+    Welcome to your personal space. Here you can manage your preferences, saved posts, and private notes.
+  </p>
+  <div style="margin-top: 20px; background-color: #e0f7fa; padding: 20px; border-radius: 10px;">
+    <ul style="list-style: none; padding-left: 0; font-size: 16px;">
+      <li>🌟 Saved Articles</li>
+      <li>📝 Notes & Drafts</li>
+      <li>⚙️ Settings</li>
+      <li>🔒 Privacy Options</li>
+    </ul>
   </div>
 </section>
 
@@ -375,5 +389,5 @@ footer {
     }
   </script>
 
-</body>
+</body> add a new fuction named my space personal menu  
 </html>
